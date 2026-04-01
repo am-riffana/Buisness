@@ -26,7 +26,6 @@ class MyApp
              fontWeight: FontWeight.bold,
              fontFamily: 'Playfair Display',),
              
-             
              ),
              Text('Flutter Developer',style: TextStyle(fontSize: 20,
              color: const Color.fromARGB(255, 22, 3, 46),
@@ -60,16 +59,15 @@ class MyApp
                 children: [
                   Padding(padding: EdgeInsets.fromLTRB(10,25,25,25)),
                   Icon(Icons.email,
-                  color: const Color.fromARGB(255, 25, 1, 1),
+                  color: const Color.fromARGB(255, 39, 3, 64),
                   ),
                   SizedBox(width: 10,),
-                  Text('rifanasherin80@gmail.com',style: TextStyle(color: Colors.black,
+                  Text('rifanasherin80@gmail.com',style: TextStyle(color: const Color.fromARGB(255, 34, 3, 52),
                   fontSize: 20
                   ),)
                 ],
               ),
              )
-
             ],
           ),
         ),
